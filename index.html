@@ -70,10 +70,10 @@
             </a>
           </div>
           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li class="page-active"><a href="#">Blog</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li class="page-active"><a href="./index.html">Inicio</a></li>
+            <!-- <li><a href="./contact.html">Nosotros</a></li> -->
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="/contact.html">Contacto</a></li>
           </ul>
         </nav>
 
@@ -87,34 +87,88 @@
     <section class="main">
 
       <!-- Slider -->
-      <section class="banner-principal">
-        <div class="banner" style="background-image: url('img/slide1.jpg');"></div>
-        <div class="overlay-banner"></div>
-        <div class="texto-banner">
-          <h3>Blog</h3>
+      <section class="slider-principal">
+        <div class="slider" id="slider">
+          <img src="img/slide1.jpg" alt="">
+          <img src="img/slide2.jpg" alt="">
+          <img src="img/slide3.jpg" alt="">
+          <img src="img/slide4.jpg" alt="">
+        </div>
+        <div class="overlay-slider"></div>
+        <div class="texto-slider">
+          <h3>Porque lo mejor se vive con fruta</h3>
+          <p>Revisa nuestro proceso de preparación desde cero</p>
+          <a href="#blurbs">VER MÁS</a>
         </div>
       </section> <!-- Slider -->
 
-      <section class="blog">
+      <section class="blurbs" id="blurbs">
         <div class="contenedor">
 
-          <div class="listado-articulos">
+          <div class="titulo-seccion">
+            <h3>Nuestro proceso</h3>
+            <p>Nos enfocamos en mejorar cada detalle</p>
+          </div>
+
+          <div class="contenido-seccion">
+
+            <article class="blurb">
+              <div class="imagen">
+                <img src="img/blurb-cosechando.jpg" alt="">
+              </div>
+              <div class="texto">
+                <h4>Cosechando</h4>
+                <p>Seleccionamos ingredientes frescos de calidad.</p>
+              </div>
+            </article>
+
+            <article class="blurb">
+              <div class="imagen">
+                <img src="img/blurb-preparando.jpg" alt="">
+              </div>
+              <div class="texto">
+                <h4>Preparando</h4>
+                <p>Mezclamos ingredientes cuidadosamente para maximizar sabor.</p>
+              </div>
+            </article>
+
+            <article class="blurb">
+              <div class="imagen">
+                <img src="img/blurb-terminando.jpg" alt="">
+              </div>
+              <div class="texto">
+                <h4>Terminando</h4>
+                <p>Servimos batidos frescos y nutricionales con amor.</p>
+              </div>
+            </article>
+
+          </div>  <!-- /Contenido sección -->
+        </div>
+      </section> <!-- /Blurbs -->
+
+      <section class="ultimos-articulos">
+        <div class="contenedor">
+
+          <div class="titulo-seccion">
+            <h3>Artículos más recientes</h3>
+            <p>Esperamos que disfrutes de nuestros batidos naturales de alta calidad.</p>
+          </div>
+
+          <div class="contenedor-articulos">
 
             <article class="article">
-
-              <div class="article-header">
-                <p class="article-date">1 de enero 2017</p>
-                <h2><a href="#">Artículo de prueba 1</a></h2>
-                <p class="article-category"><a href="#">Recetas</a></p>
-              </div><!-- /article-header -->
 
               <a href="#">
               <img src="img/articulo1.jpg" alt="">
               </a>
 
               <div class="article-content">
+                <div class="article-header">
+    							<h2><a href="#">Los 5 mejores batidos naturales para aumentar tu energía y mejorar tu salud</a></h2>
+                  <p class="article-date">1 de enero 2022</p>
+    						</div><!-- /.blog-entry-header -->
 
-    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt voluptatum, libero excepturi accusamus illo debitis ab tempora!</p>
+    						<p>Los batidos naturales son una forma fácil y deliciosa de mejorar tu salud y aumentar tu energía durante el día. Aquí te presentamos los 5 mejores batidos naturales que puedes hacer en casa con ingredientes frescos y saludables..</p>
 
     						<p class="read-more-container"><a href="#" class="read-more-link">Leer más</a></p>
               </div> <!-- /.article-content -->
@@ -122,88 +176,47 @@
   					</article>	<!-- /.article -->
 
             <article class="article">
-
-              <div class="article-header">
-                <p class="article-date">1 de enero 2017</p>
-                <h2><a href="#">Artículo de prueba 2</a></h2>
-                <p class="article-category"><a href="#">Recetas</a></p>
-              </div><!-- /article-header -->
 
               <a href="#">
               <img src="img/articulo2.jpg" alt="">
               </a>
 
               <div class="article-content">
+  						  <div class="article-header">
+  						  	<h2><a href="#">10 Beneficios sorprendentes de los batidos naturales para la salud</a></h2>
+                  <p class="article-date">1 de enero 2022</p>
+  						  </div><!-- /.blog-entry-header -->
 
-    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt voluptatum, libero excepturi accusamus illo debitis ab tempora!</p>
+                <p>En este artículo, se describirán 10 beneficubrimientos sorprendentes de los batidos naturales y sus efectos positivos en la salud, incluyendo mejoras en la digestión, aumento de la energía, mejora de la piel y más.</p>
 
-    						<p class="read-more-container"><a href="#" class="read-more-link">Leer más</a></p>
+  						  <p class="read-more-container"><a href="#" class="read-more-link">Leer más</a></p>
               </div> <!-- /.article-content -->
 
   					</article>	<!-- /.article -->
 
             <article class="article">
 
-              <div class="article-header">
-                <p class="article-date">1 de enero 2017</p>
-                <h2><a href="#">Artículo de prueba 3</a></h2>
-                <p class="article-category"><a href="#">Recetas</a></p>
-              </div><!-- /article-header -->
-
               <a href="#">
               <img src="img/articulo3.jpg" alt="">
               </a>
 
               <div class="article-content">
+  						  <div class="article-header">
+  						  	<h2><a href="#">Recetas fáciles y deliciosas de batidos naturales para todas las ocasiones</a></h2>
+                  <p class="article-date">1 de enero 2022</p>
+  						  </div><!-- /.blog-entry-header -->
 
-    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt voluptatum, libero excepturi accusamus illo debitis ab tempora!</p>
+                <p>Este artículo incluirá recetas fáciles y deliciosas de batidos naturales para diferentes ocasiones, incluyendo batidos para la mañana, para el post-entrenamiento, para el almuerzo y más. Todas las recetas estarán hechas con ingredientes frescos y saludables para asegurarte de obtener los mejores descubrimientos nutricionales.</p>
 
-    						<p class="read-more-container"><a href="#" class="read-more-link">Leer más</a></p>
+  						  <p class="read-more-container"><a href="#" class="read-more-link">Leer más</a></p>
               </div> <!-- /.article-content -->
 
   					</article>	<!-- /.article -->
 
-            <div class="navegacion-articulos">
-  						<nav>
-  							<div class="anterior">
-  								<a href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i> Artículos antiguos</a>
-  							</div>
-  							<div class="siguiente">
-  								<a href="#">Artículos recientes <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-  							</div>
-  						</nav>
-  					</div> <!-- /.navegacion-articulos -->
-
-          </div>  <!-- /listado-articulos -->
-
-          <aside class="sidebar-principal">
-
-            <div id="text-3" class="widget widget_text">
-    					<h3 class="widget-title">Acerca de mí</h3>
-    					<div class="textwidget">
-    						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum risus justo, id ornare nibh. Vivamus semper euismod ligula, ac faucibus augue feugiat mollis. Ut porttitor ante id turpis euismod ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-    						<p>Duis consectetur purus eget leo consectetur non blandit lorem posuere. Nunc sed velit leo. Suspendisse potenti.</p>
-    					</div>
-    				</div><!-- /.widget_text -->
-
-    				<div id="categories-3" class="widget widget_categories">
-    					<h3 class="widget-title">Categorías</h3>
-    					<ul>
-    						<li><a href="">Lorem ipsum dolor sit amet</a></li>
-    						<li><a href="">Consectetur adipisicing elit</a></li>
-    						<li><a href="">Incididunt ut labore</a></li>
-    						<li><a href="">Ut enim ad minim veniam</a></li>
-    						<li><a href="">Quis nostrud exercitation</a></li>
-    						<li><a href="">Duis aute irure dolor</a></li>
-    						<li><a href="">Reprehenderit</a></li>
-    						<li><a href="">Voluptate velit</a></li>
-    					</ul>
-    				</div>
-
-          </aside> <!-- /sidebar-principal -->
+          </div>
 
         </div>
-      </section> <!-- /Blog -->
+      </section> <!-- /.ultimos-articulos -->
 
     </section> <!-- /Main -->
 
@@ -231,11 +244,9 @@
             <div class="widget">
 						  <h3 class="widget-title">Artículos más recientes</h3>
 						  <ul>
-						  	<li><a href="#">Lorem ipsum dolor</a></li>
-						  	<li><a href="#">Vestibulum auctor</a></li>
-						  	<li><a href="#">Suspendisse efficitur orci</a></li>
-						  	<li><a href="#">Nulla vehicula felis</a></li>
-						  	<li><a href="#">Donec sagittis</a></li>
+						  	<li><a href="#">Los 5 mejores batidos naturales para aumentar tu energía y mejorar tu salud</a></li>
+						  	<li><a href="#">10 Beneficios sorprendentes de los batidos naturales para la salud</a></li>
+						  	<li><a href="#">Recetas fáciles y deliciosas de batidos naturales para todas las ocasiones</a></li>
 						  </ul>
 					  </div>
           </div>
@@ -244,9 +255,9 @@
             <div class="widget">
 						  <h3 class="widget-title">Categorías</h3>
 						  <ul>
-						  	<li><a href="#">Suspendisse efficitur orci</a></li>
-						  	<li><a href="#">Nulla vehicula felis</a></li>
-						  	<li><a href="#">Donec sagittis</a></li>
+						  	<li><a href="#">Beneficios para la salúd</a></li>
+						  	<li><a href="#">Recetas</a></li>
+						  	<li><a href="#">Consejos y trucos</a></li>
 						  </ul>
 					  </div>
           </div>
@@ -254,7 +265,7 @@
           <div class="contenedor-widget">
             <div class="widget">
 						  <h3 class="widget-title">Conócenos</h3>
-						  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, atque.</p>
+						  <p>"Uniendo la frescura de la naturaleza con el sabor de la vida: Conoce a la empresa de batidos naturales de alta calidad."</p>
 					  </div>
           </div>
 
